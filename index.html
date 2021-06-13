@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+  <title>w3.css</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="w3-row">
+    <div class="w3-col s12 w3-black sec1 w3-center">
+      <!-- Sidebar -->
+      <div class="w3-sidebar w3-bar-block w3-black w3-border-right" style="display:none; height:50%;" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-black w3-large">Close &times;</button> <a href="#" class="w3-bar-item w3-button">About</a>
+        <a href="#" class="w3-bar-item w3-button">Services</a>
+        <a href="#" class="w3-bar-item w3-button">Portfolio</a>
+        <a href="#" class="w3-bar-item w3-button">Team</a>
+        <a href="#" class="w3-bar-item w3-button">Contact Us</a>
+      </div>
+      <!-- Page Content -->
+      <div class="w3-black">
+        <button class="w3-button w3-black w3-xlarge" onclick="w3_open()">☰</button>
+        <div class="w3-container">
+          <h1>FABLE.</h1>
+        </div>
+      </div>
+      <img src="images/banner.png" class="w3-img bnnr w3-animate-fading">
+      <h1>Welcome To Our Studio.</h1>
+      <script>
+        function w3_open() {
+                    document.getElementById("mySidebar").style.display = "block";
+                }
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                }
+      </script>
+    </div>
+  </div>
+
+
+    <section class="about">
+      <div class="w3-row">
+        <div class="w3-col s12 w3-orange w3-center">
+          <h2>About</h2>
+          <i class="fal fa-images"></i>
+          <p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. Lattes Agency is one of the best in town see more you will be amazed</p>
+          </center>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="row">
+        <div class="w3-col m3 w3-gray w3-center"> <i class="fa fa-home"></i>
+          <i class="far fa-camera fa-2x"></i>
+          <h4>VISUALIZATION</h4>
+          <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+        </div>
+        <div class="w3-col m3 w3-orange w3-center"> <i class="fa fa-home"></i>
+          <i class="fal fa-image"></i> 
+          <h4>VISUALIZATION</h4>
+          <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+        </div>
+        <div class="w3-col m3 w3-gray w3-center"> <i class="fa fa-home"></i>
+          <i class="fal fa-image"></i> 
+          <h4>VISUALIZATION</h4>
+          <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+        </div>
+        <div class="w3-col m3 w3-orange w3-center"> <i class="fa fa-home"></i>
+          <i class="fal fa-image"></i> 
+          <h4>VISUALIZATION</h4>
+          <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section class="creative-part">
+    <div class="w3-row">
+      <div class="w3-col m6  w3-gray w3-center cp-left">
+        <h3>WE'R CREATIVE</h3>
+        <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          <br>
+          <br>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?</P>
+      </div>
+      <div class="w3-col m6 w3-orange  cp-right">
+        <h2 class="w3-center">our skills</h2>
+        <h3>WEB DEVELOPMENT <span class="bar"> >>>>>>>>>>>>>>> 90% </span></h3>
+        <h3>WEB DEVELOPMENT <span class="bar"> >>>>>>>>>>>> 90% </span></h3>
+        <h3>WEB DEVELOPMENT <span class="bar"> >>>>>>>>>>> 90% </span></h3>
+        <h3>WEB DEVELOPMENT <span class="bar"> >>>>>>>>>> 90% </span></h3> 
+      </div>
+    </div>
+  </section>
+  <section class="achievement">
+    <div class="w3-row w3-black w3-center">
+      <div class="w3-col m3 s6 box">
+        <h5>70</h5>
+        <p>Awards</p>
+      </div>
+      <div class="w3-col m3 s6 box">
+        <h5>1055</h5>
+        <p>Clintes</p>
+      </div>
+      <div class="w3-col m3 s6 box">
+        <h5>35</h5>
+        <p>Teams</p>
+      </div>
+      <div class="w3-col m3 s6 box">
+        <h5>155</h5>
+        <p>Projects</p>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio">
+    <div class="w3-row">
+      <div class="w3-col m12">
+        <h3 class="w3-center w3-gray">Portfolio</h3>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col w3-center m4 port1 ">
+        <div class="w3-padding-32  w3-circle">
+          <img src="images/card1.jpg" class="w3-circle" style="width:75%">
+        </div>
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="w3-col w3-center m4 port1 ">
+        <div class="w3-padding-32  w3-circle">
+          <img src="images/card1.jpg" class="w3-circle" style="width:75%">
+        </div>
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="w3-col w3-center m4 port1">
+        <div class="w3-padding-32  w3-circle">
+          <img src="images/card1.jpg" class="w3-circle" style="width:75%">
+        </div>
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+    </div>
+  </section>
+  <section class="slider">
+    <div class="row">
+      <div class="w3-col m12">
+        <div class="w3-content w3-section" style="max-width:100%">
+          <h2 class="w3-center w3-gray">Slider</h2>
+          <img class="mySlides w3-animate-fading" src="images/card1.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="images/card1.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="images/card1.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="images/card1.jpg" style="width:100%">
+        </div>
+        <script>
+          var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                           x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 9000);    
+                    }
+        </script>
+      </div>
+    </div>
+  </section>
+  <section class="get-in-touch w3-center">
+    <div class="w3-row">
+      <div class="w3-col m12">
+        <form action="/action_page.php" w3-margin ">
+<h2 class="w3-center ">Get In Touch</h2>
+<div class="w3-row w3-section ">
+  <div class="w3-col " style="width:50px "><i class="w3-xxlarge fa fa-user "></i></div>
+    <div class="w3-rest ">
+      <input class="w3-input w3-border " name="first " type="text " placeholder="First Name ">
+    </div>
+</div>
+
+<div class="w3-row w3-section ">
+  <div class="w3-col " style="width:50px "><i class="w3-xxlarge fa fa-user "></i></div>
+    <div class="w3-rest ">
+      <input class="w3-input w3-border " name="last " type="text " placeholder="Last Name ">
+    </div>
+</div>
+
+<div class="w3-row w3-section ">
+  <div class="w3-col " style="width:50px "><i class="w3-xxlarge fa fa-envelope-o "></i></div>
+    <div class="w3-rest ">
+      <input class="w3-input w3-border " name="email " type="text " placeholder="Email ">
+    </div>
+</div>
+
+<div class="w3-row w3-section ">
+  <div class="w3-col " style="width:50px "><i class="w3-xxlarge fa fa-phone "></i></div>
+    <div class="w3-rest ">
+      <input class="w3-input w3-border " name="phone " type="text " placeholder="Phone ">
+    </div>
+</div>
+
+<div class="w3-row w3-section ">
+  <div class="w3-col " style="width:50px "><i class="w3-xxlarge fa fa-pencil "></i></div>
+    <div class="w3-rest ">
+      <input class="w3-input w3-border " name="message " type="text " placeholder="Message ">
+    </div>
+</div>
+
+<button class="w3-button w3-inline-block w3-section w3-black w3-ripple w3-padding ">Send</button>
+
+</form>
+    </div>
+  </div>
+</section>
+
+<section class="footer ">
+  <div class="w3-row ">
+    <div class="w3-col m6 ">
+       <ul class="w3-ul w3-black ">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+    </div>
+
+    <div class="w3-col m6 right ">
+      <ul class="w3-ul w3-black ">
+        <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+    </div>
+  </div>
+</section>
+</body>
+</html>
